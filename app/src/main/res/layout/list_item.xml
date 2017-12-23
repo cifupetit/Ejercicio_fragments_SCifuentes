@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/altura_producto"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="@dimen/tamaño_imagen"
+        android:layout_height="@dimen/tamaño_imagen"
+        android:background="@color/background_imagen_producto"
+        android:contentDescription="@string/imagen_productox"
+        android:id="@+id/imagen_producto"
+        android:layout_margin="@dimen/margin_imagen_producto"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_producto"
+        android:textSize="@dimen/tamaño_nombre_producto"
+        android:id="@+id/nombre_producto"
+        android:layout_toEndOf="@id/imagen_producto"
+        android:layout_marginTop="@dimen/marginTop_nombre_cantidad_prod"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stock"
+        android:textSize="@dimen/tamaño_stock"
+        android:id="@+id/stock"
+        android:layout_toEndOf="@id/imagen_producto"
+        android:layout_below="@id/nombre_producto"
+        android:layout_marginTop="@dimen/marginTop_nombre_cantidad_prod"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_cantidad"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/margin_cantidad"
+        />
+</RelativeLayout>

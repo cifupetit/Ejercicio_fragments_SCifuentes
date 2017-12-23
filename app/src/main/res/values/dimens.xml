@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamaño_imagen">50dp</dimen>
+    <dimen name="margin_imagen_producto">10dp</dimen>
+    <dimen name="altura_producto">72dp</dimen>
+    <dimen name="tamaño_nombre_producto">16sp</dimen>
+    <dimen name="tamaño_stock">12sp</dimen>
+    <dimen name="marginTop_nombre_cantidad_prod">10dp</dimen>
+    <dimen name="tamaño_cantidad">20sp</dimen>
+    <dimen name="margin_cantidad">10dp</dimen>
+    <dimen name="separacion_items_listview">2dp</dimen>
+    <dimen name="margin_botones">5dp</dimen>
+    <dimen name="tamaño_img_grande">220dp</dimen>
+    <dimen name="space_frag_desc">40dp</dimen>
+    <dimen name="alto_text_frag_desc">30dp</dimen>
+    <dimen name="ancho_text_frag_desc">130dp</dimen>
+</resources>

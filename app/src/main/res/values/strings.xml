@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Tienda v3</string>
+    <string name="imagen_productox">imagen_producto</string>
+    <string name="nombre_producto">Nombre</string>
+    <string name="stock">Stock</string>
+    <string name="cantidad">Cantidad</string>
+    <string-array name="nombres_productos">
+        <item>Tijera</item>
+        <item>Lapiz</item>
+        <item>Goma</item>
+        <item>Carta</item>
+        <item>Moto</item>
+        <item>Reloj</item>
+        <item>Tarjeta</item>
+        <item>Clip</item>
+        <item>Rodillo</item>
+        <item>Carpeta</item>
+    </string-array>
+    <string name="putExtra_item">putextra_item</string>
+    <string name="nombre_imagen">ic_%1s</string>
+    <string name="drawable">drawable</string>
+    <string name="boton_compra">COMPRAR</string>
+    <string name="boton_cancela">CANCELAR</string>
+    <string name="mensaje_cancela_compra">Ha cancelado la compra</string>
+    <string name="mensaje_confirma_compra">Ha comprado %1s %2ss</string>
+    <string name="cantidad_comprax">cantidad_compra</string>
+    <string name="producto_compradox">producto_comprado</string>
+    <string name="imagenx">imagen</string>
+    <string name="nombrex">nombre</string>
+    <string name="stockx">stock</string>
+    <string name="cantidadx">cantidad</string>
+    <string name="clave_item_position">itemPosition</string>
+    <string name="descTest">Descripción del producto %1s test, con su correspondiente explicación...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
