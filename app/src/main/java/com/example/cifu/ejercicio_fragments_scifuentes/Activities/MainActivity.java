@@ -1,6 +1,5 @@
 package com.example.cifu.ejercicio_fragments_scifuentes.Activities;
 
-import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.app.ListFragment;
@@ -18,17 +17,17 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectionCh
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if (findViewById(R.id.mainListFragment) != null) {
+        if (findViewById(R.id.mainDescriptionFragmentL) == null) {
             if (savedInstanceState != null) {
                 return;
             }
 
-            ListFragment listFragment = new ListFragment();
+            com.example.cifu.ejercicio_fragments_scifuentes.Fragments.ListFragment listFragment = new com.example.cifu.ejercicio_fragments_scifuentes.Fragments.ListFragment();
             listFragment.setArguments(getIntent().getExtras());
 
             FragmentManager fragmentManager = this.getFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.mainListFragment, listFragment);
+            fragmentTransaction.add(R.id.pantalla_pequeña, listFragment);
             fragmentTransaction.commit();
         }
 
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectionCh
             newDescriptionFragment.setArguments(args);
 
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.mainListFragment, newDescriptionFragment);
+            fragmentTransaction.replace(R.id.pantalla_pequeña, newDescriptionFragment);
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
         }

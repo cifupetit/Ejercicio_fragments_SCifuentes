@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tienda v3</string>
+    <string name="app_name">Tienda v2</string>
     <string name="imagen_productox">imagen_producto</string>
     <string name="nombre_producto">Nombre</string>
     <string name="stock">Stock</string>

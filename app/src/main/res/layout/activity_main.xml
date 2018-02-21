@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.cifu.ejercicio_fragments_scifuentes.Activities.MainActivity">
-
-    <fragment android:name="com.example.cifu.ejercicio_fragments_scifuentes.Fragments.ListFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/mainListFragment"/>
+    tools:context="com.example.cifu.ejercicio_fragments_scifuentes.Activities.MainActivity"
+    android:id="@+id/pantalla_pequeña">
 
 </android.support.constraint.ConstraintLayout>
